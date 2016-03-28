@@ -238,7 +238,7 @@ class WP_REST_CoAuthors_AuthorTerms extends WP_REST_Controller {
 
 		if ( empty( $terms ) ) {
 			//Nothing was returned, that shouldn't happen unless a requested post doesn't have any guest-authors
-			return new WP_Error( 'rest_authors_get_term', __( 'No terms returned for "'.$this->coauthor_taxonomy.'" taxonomy.'  ), array( 'status' => 404 ) );
+			return new WP_Error( 'rest_authors_get_term', __( 'No terms returned for "'.$this->coauthor_taxonomy.'" taxonomy.' ), array( 'status' => 404 ) );
 		}
 
 		foreach ( $terms as $term ) {

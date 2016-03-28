@@ -55,3 +55,6 @@ https://github.com/Automattic/Co-Authors-Plus
 
 ### 0.1.1 (March 23, 2016) ###
 * Production Release
+
+### 0.1.2 (March 28, 2016) ###
+* Bug fix
